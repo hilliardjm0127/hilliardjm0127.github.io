@@ -154,7 +154,7 @@ const initializeTransitions = () => {
         });
     }
 
-    const homeButton = document.querySelector('a[href="main.html"]');
+    const homeButton = document.querySelector('a[href="index.html"]');
 
     if (homeButton) {
         homeButton.addEventListener('click', (event) => {
